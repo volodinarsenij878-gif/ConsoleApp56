@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Program56
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Проверка выражений
+            bool result1 = 5 > 3;        // Сравнение 5 и 3
+            bool result2 = 5 >= 5;       // Сравнение 5 и 5
+
+            Console.WriteLine($"5 > 3 : {result1}");  // Вывод результата первого выражения
+            Console.WriteLine($"5 >= 5 : {result2}"); // Вывод результата второго выражения
+        }
+    }
+}
+
